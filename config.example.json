@@ -1,0 +1,15 @@
+{
+  "listen_host": "127.0.0.1",
+  "listen_port": 3065,
+  "upstream_base_url": "http://127.0.0.1:8080",
+  "upstream_api_key": "",
+  "request_timeout": 600,
+  "default_reasoning_effort": "low",
+  "model_aliases": {
+    "qwen3.8-flash-next-iq3_s": "deepseek-v4.1-flash"
+  },
+  "health_path": "/health",
+  "models_path": "/v1/models",
+  "chat_path": "/v1/chat/completions",
+  "cors_origin": "*"
+}
